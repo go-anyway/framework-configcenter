@@ -12,9 +12,3 @@ require (
 	github.com/hashicorp/consul/api v1.33.0
 )
 
-replace (
-	github.com/go-anyway/framework-config => ../core/config
-	github.com/go-anyway/framework-hotreload => ../hotreload
-	github.com/go-anyway/framework-log => ../core/log
-	github.com/go-anyway/framework-trace => ../trace
-)
